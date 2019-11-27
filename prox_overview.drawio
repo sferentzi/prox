@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-27T21:11:56.867Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="qwTqMhdwzrjk8DiEa2lH" version="12.3.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-27T21:14:06.756Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="i8yQels4WuDDdBkwJMJH" version="12.3.2" type="github" pages="1">
   <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
     <mxGraphModel dx="946" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="F4Z1pNz7qUs1LK6xWluZ-4" value="ansible-nodejs" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="574" y="400" width="80" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-5" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="1" vertex="1">
+        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-5" value="https://github.com/sferentzi/ansible_docker_exam" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="1" vertex="1">
           <mxGeometry x="560" y="40" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="mxpZVYRGwFoeAoN_xsZh-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Worker_Man_128x128.png" parent="1" vertex="1">
@@ -29,7 +29,7 @@
           <mxGeometry x="220" y="40" width="330" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="P4Erm-toOCTM8WnYmhQi-5" value="Git" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=-45;" parent="1" vertex="1">
-          <mxGeometry x="440" y="160" width="174" height="60" as="geometry"/>
+          <mxGeometry x="445" y="172" width="140" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="P4Erm-toOCTM8WnYmhQi-6" value="SSH" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=40;" parent="1" vertex="1">
           <mxGeometry x="190" y="160" width="150" height="60" as="geometry"/>
