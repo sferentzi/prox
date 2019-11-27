@@ -13,7 +13,7 @@
  - VM 3 setting: 192.168.56.32, ansible-nodejs, (B)
  - root / 000000
 
- ## Do Snapshot 1
+ ## --> Do Snapshot 1
  - - [x] Snapshot 1 @ All
 
 ## Log in to *ansible-controller* as *root*
@@ -43,13 +43,13 @@ append line:
 exam ALL=(ALL) NOPASSWD:ALL
 ~~~
 
-### Make fingerprints to web and crontroller
+### Make fingerprints as *root* to *web* and *nodejs* (break with ctrl + c)
 ~~~
 ssh 129.168.56.31 -l root
 ssh 129.168.56.32 -l root 
 ~~~
 
-### Do Snapshot 2
+### --> Do Snapshot 2
 - [x] Snapshot 2 @ Controller
 
 ## Add Fingerprint from your Local computer *ansible-controller* as *exam*
@@ -68,9 +68,22 @@ git config --global user.name
 git config --global user.email
 ~~~
 
-### Clone remote Git repository *ansible_docker_exam*
-- [ ] Change repo name to !!!
+### Clone remote Git repository *ansible_docker_exam* and enter folder
+- [ ] Change repo name and folder name !!!
 ~~~
 git clone https://github.com/sferentzi/prox.git
+cd prox
+~~~
 
+### --> Do Snapshot 3
+- [ ] Do Snapshot @ All VM
+
+### Generate ssh-key
+
+
+After created ssh keys
+### Make fingerprints as *exam* to *web* and *nodejs* (break with ctrl + c)
+~~~
+ssh 129.168.56.31 -l root
+ssh 129.168.56.32 -l root 
 ~~~
