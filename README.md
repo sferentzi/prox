@@ -75,7 +75,7 @@ git clone https://github.com/sferentzi/prox.git
 cd prox
 ~~~
 
-### --> Do Snapshot 3
+### --> Do Snapshot 3
 - [ ] Do Snapshot @ All VM
 
 ### Generate ssh-key
