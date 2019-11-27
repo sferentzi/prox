@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-27T22:15:26.945Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="O3Jpv62HYkColONpClEw" version="12.3.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-27T22:16:23.224Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="YF8cMsyActbjZ7EpB5Px" version="12.3.2" type="github" pages="1">
   <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
     <mxGraphModel dx="946" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="P4Erm-toOCTM8WnYmhQi-6" value="&lt;b&gt;SSH&lt;/b&gt;" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=40;" parent="1" vertex="1">
           <mxGeometry x="190" y="160" width="150" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="P4Erm-toOCTM8WnYmhQi-7" value="&lt;b&gt;SSH exam&lt;/b&gt;" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=-30;" parent="1" vertex="1">
+        <mxCell id="P4Erm-toOCTM8WnYmhQi-7" value="&lt;b&gt;SSH as exam&lt;/b&gt;" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=-30;" parent="1" vertex="1">
           <mxGeometry x="180" y="315" width="140" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="P4Erm-toOCTM8WnYmhQi-8" value="&lt;b&gt;SSH as exam&lt;/b&gt;" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=30;" parent="1" vertex="1">
