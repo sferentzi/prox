@@ -86,18 +86,26 @@ ssh-keygen
 ### Create *init_hosts* file
 - place to /home/exam/prox
 
-### Create *init.yaml* file
+### Create *init_users.yaml* file
 - place to /home/exam/prox
 
-
-
-
-
-
-
-After created ssh keys
-### Make fingerprints as *exam* to *web* and *nodejs* (break with ctrl + c)
+### Chance to user *root*
 ~~~
-ssh 129.168.56.31 -l root
-ssh 129.168.56.32 -l root 
+sudo su
+~~~
+
+### Run the playbook to init users on the *hosts*
+- Hint: you shuold be now root@ansible-controller
+- [ ] ??? Do we need to validate? (2x)
+~~~
+ansible-playbook -i init_hosts init_users.yaml -k
+~~~
+
+### Change back to user *exam*
+- Hint: press ctrl + d
+
+### Make fingerprints as *exam* to *web* and *nodejs*
+~~~
+ssh 129.168.56.31 -l exam
+ssh 129.168.56.32 -l exam 
 ~~~
