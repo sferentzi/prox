@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-27T09:11:25.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="BI1o_D5PGvrPpY9XQ-LZ" version="12.3.1" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-27T13:09:29.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="WMYKwXHyZut2V1SNRMnn" version="12.3.1" type="github" pages="1">
   <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
     <mxGraphModel dx="1182" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="mxpZVYRGwFoeAoN_xsZh-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Worker_Man_128x128.png" vertex="1" parent="1">
           <mxGeometry x="20" y="40" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="mxpZVYRGwFoeAoN_xsZh-2" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="75" height="75" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
