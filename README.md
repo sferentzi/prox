@@ -79,6 +79,19 @@ cd prox
 - [ ] Do Snapshot @ All VM
 
 ### Generate ssh-key
+~~~
+ssh-keygen
+~~~
+
+### Create *init_hosts* file
+- place to /home/exam/prox
+
+
+
+
+
+
+
 
 
 After created ssh keys
