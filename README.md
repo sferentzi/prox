@@ -86,7 +86,8 @@ ssh-keygen
 ### Create *init_hosts* file
 - place to /home/exam/prox
 
-
+### Create *init.yaml* file
+- place to /home/exam/prox
 
 
 
