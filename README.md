@@ -20,7 +20,7 @@ ansible --version
 ~~~
 
 ### Install Git manually
-- [ ] Is it ok, to install Git on (0) manually?
+- [ ] ??? Is it ok, to install Git on (0) manually?
 ~~~
 yum install git -y
 ~~~
@@ -38,4 +38,20 @@ append line:
 exam ALL=(ALL) NOPASSWD:ALL
 ~~~
 
-- - [x] Snapshot 1 @ Controller
+- - [x] Snapshot 2 @ Controller
+
+## Add Fingerprint from your Local computer *ansible-controller* as *exam*
+~~~
+ssh 129.168.56.31 -l exam
+~~~
+
+## Open your favourite IDE and log in to *ansible-controller* as *exam*
+- Navigate to ~(home) folder (/home/exam)
+
+### Set Git global variables for Git user & check it
+~~~
+git config --global user.name "Sandor Ferentzi"
+git config --global user.email "sandor.ferentzi@gmail.com"
+git config --global user.name
+git config --global user.email
+~~~
