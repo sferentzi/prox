@@ -2,6 +2,9 @@
 
 # ToDo's
 
+## Create repo @ GitHubb
+- [ ] !! write the rest
+
 ## Setting up VMs (manually)
 - Install Linux centOS 7 on each VM-s
 - Set IP-s and Hostnames, as follows:
@@ -9,6 +12,8 @@
  - VM 2 setting: 192.168.56.31, ansible-web, (A)
  - VM 3 setting: 192.168.56.32, ansible-nodejs, (B)
  - root / 000000
+
+ ## Do Snapshot 1
  - - [x] Snapshot 1 @ All
 
 ## Log in to *ansible-controller* as *root*
@@ -38,7 +43,14 @@ append line:
 exam ALL=(ALL) NOPASSWD:ALL
 ~~~
 
-- - [x] Snapshot 2 @ Controller
+### Make fingerprints to web and crontroller
+~~~
+ssh 129.168.56.31 -l root
+ssh 129.168.56.32 -l root 
+~~~
+
+### Do Snapshot 2
+- [x] Snapshot 2 @ Controller
 
 ## Add Fingerprint from your Local computer *ansible-controller* as *exam*
 ~~~
@@ -54,4 +66,11 @@ git config --global user.name "Sandor Ferentzi"
 git config --global user.email "sandor.ferentzi@gmail.com"
 git config --global user.name
 git config --global user.email
+~~~
+
+### Clone remote Git repository *ansible_docker_exam*
+- [ ] Change repo name to !!!
+~~~
+git clone https://github.com/sferentzi/prox.git
+
 ~~~
