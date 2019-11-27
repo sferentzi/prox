@@ -1,1 +1,28 @@
-<mxfile host="www.draw.io" modified="2019-11-27T08:47:31.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="8DoT1tmawTZgmTw_y8ln" version="12.3.1" type="github" pages="1"><diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">3ZZdb4IwFEB/DY9bKEXlWdQt2eaLW0x8MRUqNBYuK2Wgv34VyteMyZbMaCQBLqf3tuW0CRjYjYonQZLwDXzKDcv0CwNPDMtCyLHU7Uj2FRkNUQUCwXyd1IIFO1ANTU0z5tO0lygBuGRJH3oQx9STPUaEgLyftgXeHzUhAT0BC4/wU7pkvgwr6gzMlj9TFoT1yMjULRGpkzVIQ+JD3kF4amBXAMgqigqX8qO82ktVNzvT2kxM0Fj+pmBmr1AyP4w+P1L0+jIsljxbPehevgjP9Avrycp9bYBFpaJxKCOuCFIhJxvKx8TbBQKy2HeBgyiT8bY8VIqumrAoUFPibKOuHmfJmgh5DCFKMklFquI5lRuA3RpZTqHOxyQO9KyokLQ4+7qokah2H4WISrFXKbrA1tr1vkP1MuSdVdQo7CxgzYjeN0HTcatWBdruH0xbN2B6QYVy+s+i8Q/Tjflrmcb3ahoN+6Zt88qm7Xs1Pbg104PbMf0O+cV9OxfTrR7bT27Z1vlxwdNv</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-27T09:11:25.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="BI1o_D5PGvrPpY9XQ-LZ" version="12.3.1" type="github" pages="1">
+  <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
+    <mxGraphModel dx="1182" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Netbook_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="100" y="40" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-2" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="340" y="240" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-3" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-4" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="560" y="400" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-5" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="mxpZVYRGwFoeAoN_xsZh-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Worker_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="80" height="80" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
