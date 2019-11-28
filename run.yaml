@@ -1,0 +1,23 @@
+- name: Web
+  hosts: web
+  become: true
+
+  tasks:
+  - name: Installing Apache
+    yum:
+      name: httpd
+      state: latest
+
+  - name: Set firewall 
+    firewalld:
+      port: 80/tcp
+      permanent: yes
+      state: enabled
+
+  - name: Reload service firewalld, in all case
+    systemd:
+      name: firewalld
+      state: reloaded
+
+  - name: Start Apache
+    command: systemctl start httpd

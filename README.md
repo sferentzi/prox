@@ -1,3 +1,4 @@
+- [ ] !!! search for prox!!!
 # project *prox*
 
 # ToDo's
@@ -83,13 +84,13 @@ cd prox
 ssh-keygen
 ~~~
 
-### Create *init_hosts* file
+### Create *init_hosts* file
 - place to /home/exam/prox
 
-### Create *init_users.yaml* file
+### Create *init_users.yaml* file
 - place to /home/exam/prox
 
-### Chance to user *root*
+### Change to user *root*
 ~~~
 sudo su
 ~~~
@@ -101,7 +102,7 @@ sudo su
 ansible-playbook -i init_hosts init_users.yaml -k
 ~~~
 
-### Change back to user *exam*
+### Change back to user *exam*
 - Hint: press ctrl + d
 
 ### Make fingerprints as *exam* to *web* and *nodejs*
@@ -112,3 +113,17 @@ ssh 129.168.56.32 -l exam
 
 ### --> Do Snapshot 4
 - [ ] Do Snapshot 4 @ All VM
+
+## Set Up apache & nodejs
+
+### Create host file run_hosts
+- Place it to /home/exam/prox
+
+### Create yaml file run.yaml
+- [ ] ??? become:true needed ???
+- [ ] !!! make httpd idempotent
+- [ ] !!! enable httpd by systemctl
+- [ ] !!! Set Apache proxy
+- Place it to /home/exam/prox
+- --> Do Snapshot 5, if apache is running
+- [ ] Do Snapshot 5 @ All VM
