@@ -129,3 +129,5 @@ ssh 129.168.56.32 -l exam
 - [ ] Do Snapshot 5 @ All VM
 - --> Do Snapshot 6, if nodejs is running
 - [ ] Do Snapshot 6 @ All VM
+- --> Do Snapshot 7, if Apache porxy is running properly
+- [ ] Do Snapshot 7 @ All VM

@@ -1,11 +1,14 @@
 - name: Web
   hosts: web
   become: true
+  vars:
+    packages: [httpd,libselinux-python,libsemanage-python]
+    nodejs_ip: 192.168.56.32
 
   tasks:
-  - name: Installing Apache
+  - name: Installing Apache and other packages
     yum:
-      name: httpd
+      name: '{{packages}}'
       state: latest
 
   - name: Set firewall 
@@ -14,13 +17,28 @@
       permanent: yes
       state: enabled
 
-  - name: Reload service firewalld, in all case
-    systemd:
+  - name: Restart firewalld
+    service:
       name: firewalld
-      state: reloaded
+      state: restarted
+      enabled: yes
 
-  - name: Start Apache
-    command: systemctl start httpd
+  - name: Set httpd_can_network_connect flag. Required for proxy
+    seboolean:
+      name: httpd_can_network_connect
+      state: yes
+      persistent: yes
+
+  - name: deploy a template file with a loop
+    template:
+      src: templates/template_nodejs.j2
+      dest: /etc/httpd/conf.d/nodejs.conf
+
+  - name: Start service httpd, if not started
+    service:
+      name: httpd
+      state: restarted
+      enabled: yes
 
 - name: Implement NodeJs with dependencies
   hosts: nodejs
