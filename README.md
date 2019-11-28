@@ -109,3 +109,6 @@ ansible-playbook -i init_hosts init_users.yaml -k
 ssh 129.168.56.31 -l exam
 ssh 129.168.56.32 -l exam 
 ~~~
+
+### --> Do Snapshot 4
+- [ ] Do Snapshot 4 @ All VM
