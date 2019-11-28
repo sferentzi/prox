@@ -127,3 +127,5 @@ ssh 129.168.56.32 -l exam
 - Place it to /home/exam/prox
 - --> Do Snapshot 5, if apache is running
 - [ ] Do Snapshot 5 @ All VM
+- --> Do Snapshot 6, if nodejs is running
+- [ ] Do Snapshot 6 @ All VM
