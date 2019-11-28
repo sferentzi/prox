@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-28T01:47:44.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="KtPJS9c5PKtze56RXGGR" version="12.3.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-28T01:49:54.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="PdMM7oIwzivmH-IR3Nj8" version="12.3.2" type="github" pages="1">
   <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
     <mxGraphModel dx="946" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="565" y="562" width="265" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="54nYr1uJv7uDRDI7kn5p-4" value="192.168.56.31:80/node" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="562" width="230" height="20" as="geometry"/>
+          <mxGeometry x="40" y="562" width="260" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="54nYr1uJv7uDRDI7kn5p-6" value="&lt;b&gt;Git&lt;/b&gt;" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="648" y="202" width="73" height="100" as="geometry"/>
@@ -56,10 +56,10 @@
           <mxGeometry x="370" y="220" width="32" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="54nYr1uJv7uDRDI7kn5p-11" value="192.168.56.31:80 --&amp;gt; apache" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="592" width="230" height="20" as="geometry"/>
+          <mxGeometry x="40" y="592" width="260" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="54nYr1uJv7uDRDI7kn5p-12" value="ExamAnsible @ :8080" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="565" y="592" width="230" height="20" as="geometry"/>
+        <mxCell id="54nYr1uJv7uDRDI7kn5p-12" value="Exam Docker @ :8070" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="592" width="265" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="54nYr1uJv7uDRDI7kn5p-14" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="317.5" y="567" width="230" height="10" as="geometry"/>
