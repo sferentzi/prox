@@ -1,9 +1,19 @@
-- [ ] !!! search for prox!!!
 # project *prox*
 
-# ToDo's
 
-## Create repo @ GitHubb
+# ToDo's (to finish Readme.md)
+- [ ] Add Project Description
+- [ ] Add github content
+- [ ] Add Verification
+- [ ] Check typo
+- [ ] Add instructions running playbooks
+- [ ] Add Afterword
+- [ ] Consider: add file creating instructions to Appendix
+- [ ] Add Content
+
+![Sys Overview](prox_overview.png "Sys Overview")
+
+## Create repo @ GitHub
 - [ ] !! write the rest
 
 ## Setting up VMs (manually)
@@ -125,6 +135,13 @@ ssh 129.168.56.32 -l exam
 - [ ] !!! enable httpd by systemctl
 - [ ] !!! Set Apache proxy
 - Place it to /home/exam/prox
+
+### Run the playbook to set up programs on *hosts*
+- Hint: you shuold be now exam@ansible-controller
+~~~
+ansible-playbook -i run_hosts run.yaml
+~~~
+
 - --> Do Snapshot 5, if apache is running
 - [ ] Do Snapshot 5 @ All VM
 - --> Do Snapshot 6, if nodejs is running
