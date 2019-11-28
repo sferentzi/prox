@@ -21,3 +21,25 @@
 
   - name: Start Apache
     command: systemctl start httpd
+
+- name: Implement NodeJs with dependencies
+  hosts: nodejs
+  become: true
+
+  tasks:
+  - name: "Add repository"
+    shell: curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
+
+  - name: Install required packages
+    package:
+      name:
+        - nodejs
+        - gcc-c++
+        - make
+        - git
+      state: latest
+
+  - name: Install required npm package(s) 
+    npm:
+      name: supervisor
+      global: yes
