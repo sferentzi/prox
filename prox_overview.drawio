@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-28T01:49:54.909Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="PdMM7oIwzivmH-IR3Nj8" version="12.3.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-28T01:51:22.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="CLLd0tz8ClETkmHR1vFR" version="12.3.2" type="github" pages="1">
   <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
     <mxGraphModel dx="946" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,6 +69,9 @@
         </mxCell>
         <mxCell id="54nYr1uJv7uDRDI7kn5p-19" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;High level overview&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="252.5" y="10" width="360" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="54nYr1uJv7uDRDI7kn5p-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-2106/24/social_media_social_media_logo_docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="715" y="345" width="48" height="48" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
