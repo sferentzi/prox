@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-28T01:51:22.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="CLLd0tz8ClETkmHR1vFR" version="12.3.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-28T02:03:16.695Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="Qhpo6QGr23qZlkB4096C" version="12.3.2" type="github" pages="1">
   <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
     <mxGraphModel dx="946" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="P4Erm-toOCTM8WnYmhQi-8" value="&lt;b&gt;SSH as exam&lt;/b&gt;" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=30;" parent="1" vertex="1">
           <mxGeometry x="440" y="310" width="167" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="54nYr1uJv7uDRDI7kn5p-3" value="192.168.56.31:8080 --&amp;gt; Exam Ansible" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="54nYr1uJv7uDRDI7kn5p-3" value="192.168.56.32:8080 --&amp;gt; Exam Ansible" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="562" width="265" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="54nYr1uJv7uDRDI7kn5p-4" value="192.168.56.31:80/node" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
@@ -58,7 +58,7 @@
         <mxCell id="54nYr1uJv7uDRDI7kn5p-11" value="192.168.56.31:80 --&amp;gt; apache" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="592" width="260" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="54nYr1uJv7uDRDI7kn5p-12" value="Exam Docker @ :8070" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="54nYr1uJv7uDRDI7kn5p-12" value="&amp;nbsp;192.168.56.32:8070 --&amp;gt; Exam Docker" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="592" width="265" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="54nYr1uJv7uDRDI7kn5p-14" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
