@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-28T01:46:45.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="gGZ5tnzJ4flNLAwJ31p0" version="12.3.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-28T01:47:44.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 YaBrowser/19.9.0.1768 Yowser/2.5 Safari/537.36" etag="KtPJS9c5PKtze56RXGGR" version="12.3.2" type="github" pages="1">
   <diagram id="L1c6QgTKYNoORSt2MQud" name="Page-1">
     <mxGraphModel dx="946" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="F4Z1pNz7qUs1LK6xWluZ-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ansible-nodejs&lt;br&gt;192.168.56.32&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="640" y="370" width="80" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;https://github.com/sferentzi/ansible_docker_exam&lt;/b&gt;&lt;/font&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="1" vertex="1">
+        <mxCell id="F4Z1pNz7qUs1LK6xWluZ-5" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;https://github.com/sferentzi/ansible_docker_prox&lt;/b&gt;&lt;/font&gt;" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="1" vertex="1">
           <mxGeometry x="560" y="40" width="80" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="mxpZVYRGwFoeAoN_xsZh-1" value="" style="image;html=1;labelBackgroundColor=#ffffff;image=img/lib/clip_art/people/Worker_Man_128x128.png" parent="1" vertex="1">
