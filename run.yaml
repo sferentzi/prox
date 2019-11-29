@@ -143,9 +143,12 @@
       name: alpine
       state: present
 
-  - name: build image
-    docker_image:
-      name: alpine-test
-      build:
-        dockerfile: Dockerfile
-      source: bild
+  - name: build the image
+    command: sudo docker build -t alpine-ansible . 
+
+#  - name: build image
+#    docker_image:
+#      name: alpine-test
+#      build:
+#        dockerfile: Dockerfile
+#      source: build
