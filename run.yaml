@@ -43,7 +43,7 @@
 - name: Implement NodeJs with dependencies
   hosts: nodejs
   tags:
-    - docker
+    - node
   become: true
 
   tasks:
@@ -142,6 +142,14 @@
     docker_image:
       name: alpine
       state: present
+
+  - name: Copy prepared Dockerfile
+    copy:
+      src: ./Dockerfile
+      dest: /home/exam/Dockerfile
+      owner: root
+      group: root
+      mode: '0644'
 
   - name: build the image
     command: sudo docker build -t alpine-ansible . 
