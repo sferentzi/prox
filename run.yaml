@@ -154,11 +154,13 @@
   - name: build the image
     command: sudo docker build -t alpine-ansible .
 
-  - name: data container
-    docker:
+  - name: run container
+    become: true
+    docker_container:
       name: exam-container
       image: alpine-ansible
-      state: started
+      state: present
+      command: sleep infinity
 
 #  - name: Start a container with a command
 #    docker_container:
