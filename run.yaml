@@ -41,7 +41,7 @@
       enabled: yes
 
 - name: Implement NodeJs with dependencies
-  hosts: nodejs
+  hosts: tasks
   tags:
     - node
   become: true
