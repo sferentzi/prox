@@ -2,7 +2,7 @@
 
 
 # ToDo's (to finish Readme.md)
-- [ ] !!!! User variables for Host IP !!!
+- [ ] !!!! Use variables for Host IP !!!
 - [ ] Add Project Description
 - [ ] Add github content
 - [ ] Add Verification
