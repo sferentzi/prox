@@ -154,6 +154,9 @@
   - name: build the image
     command: sudo docker build -t alpine-ansible . 
 
+  - name: run the container from built image
+    command: sudo docker run --rm -t alpine-ansible
+
 #  - name: build image
 #    docker_image:
 #      name: alpine-test
