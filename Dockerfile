@@ -1,3 +1,3 @@
 FROM alpine
-RUN echo "Our first docker iamge from Dockerfile"
+RUN echo "Made by Ansible & Docker  > test.txt"
 CMD echo "Hello from our first container"
