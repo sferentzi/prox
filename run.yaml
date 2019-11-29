@@ -154,11 +154,17 @@
   - name: build the image
     command: sudo docker build -t alpine-ansible .
 
-  - name: Start a container with a command
-    docker_container:
+  - name: data container
+    docker:
       name: exam-container
       image: alpine-ansible
-      command: ["sleep", "infinity"]
+      state: started
+
+#  - name: Start a container with a command
+#    docker_container:
+#      name: exam-container
+#      image: alpine-ansible
+#      command: ["sleep", "infinity"]
 
 #  - name: run the container from built image
 #    command: sudo docker run --rm -t alpine-ansible
