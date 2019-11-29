@@ -42,6 +42,8 @@
 
 - name: Implement NodeJs with dependencies
   hosts: nodejs
+  tags:
+    - docker
   become: true
 
   tasks:
@@ -122,8 +124,13 @@
   - name: "Step x.b."
     shell: pip install docker-py
 
+#  - name: "Step 3."
+#    shell: yum install docker-ce -y
+
   - name: "Step 3."
-    shell: yum install docker-ce -y
+    yum:
+      name: docker-ce
+      state: latest
 
   - name: "Step 4."
     shell: systemctl enable --now docker
@@ -135,3 +142,10 @@
     docker_image:
       name: alpine
       state: present
+
+  - name: build image
+    docker_image:
+      name: alpine-test
+      build:
+        dockerfile: Dockerfile
+      source: bild
