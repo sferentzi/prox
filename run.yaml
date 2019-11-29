@@ -152,10 +152,15 @@
       mode: '0644'
 
   - name: build the image
-    command: sudo docker build -t alpine-ansible . 
+    command: sudo docker build -t alpine-ansible .
 
-  - name: run the container from built image
-    command: sudo docker run --rm -t alpine-ansible
+  - name: Start a container with a command
+    docker_container:
+      name: exam-container
+      image: alpine-ansible
+
+#  - name: run the container from built image
+#    command: sudo docker run --rm -t alpine-ansible
 
 #  - name: build image
 #    docker_image:
